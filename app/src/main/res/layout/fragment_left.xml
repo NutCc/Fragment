@@ -7,27 +7,31 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="horizontal"
-        android:background="#556ceb">
+        android:background="#000">
         <Button
             android:id="@+id/button3"
-            android:layout_width="wrap_content"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
+            android:layout_weight="1"
             android:text="+_+"
-            android:background="#556ceb"/>
+            android:textColor="#fff"
+            android:background="#000"/>
         <Button
-           android:layout_marginLeft="60dp"
-        android:id="@+id/button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="=3="
-            android:background="#556ceb"/>
-        <Button
-         android:layout_marginLeft="60dp"
-            android:id="@+id/button2"
-            android:layout_width="wrap_content"
+            android:id="@+id/button"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text=" =3=  "
+            android:textColor="#fff"
+            android:background="#000"/>
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
             android:text="TAT"
-            android:background="#556ceb"/>
+            android:textColor="#fff"
+            android:background="#000"/>
 
 </LinearLayout>
 
